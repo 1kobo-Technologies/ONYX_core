@@ -1,0 +1,129 @@
+# =====================================
+# ONYX PROJECT - Combined .gitignore
+# Languages: Python, C++, C#
+# =====================================
+
+# ---------- PYTHON ----------
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.pyc
+*.so
+*.egg
+*.egg-info/
+dist/
+build/
+develop-eggs/
+downloads/
+.eggs/
+env/
+venv/
+ENV/
+.venv/
+.Python
+*.manifest
+*.spec
+*.log
+*.pot
+*.mo
+*.db
+*.sqlite3
+.ipynb_checkpoints
+.DS_Store
+.vscode/
+.idea/
+.mypy_cache/
+.pytest_cache/
+.coverage
+htmlcov/
+.cache/
+.tox/
+site/
+staticfiles/
+
+# ---------- C++ ----------
+# Object and binary files
+*.o
+*.obj
+*.exe
+*.dll
+*.so
+*.dylib
+*.lib
+*.a
+*.la
+*.lo
+*.def
+*.exp
+*.pdb
+*.idb
+*.ilk
+
+# Build folders
+Debug/
+Release/
+x64/
+x86/
+build/
+bin/
+out/
+
+# ---------- C# / .NET ----------
+# Build results
+[Bb]in/
+[Oo]bj/
+[Ll]og/
+[Ll]ogs/
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+*.vs/
+*.vscode/
+*.dbmdl
+*.jfm
+
+# Visual Studio cache/options directory
+.vs/
+*.psess
+*.vsp
+*.vspx
+*.coverage
+*.coveragexml
+
+# NuGet packages
+*.nupkg
+*.snupkg
+packages/
+.nuget/
+project.lock.json
+project.fragment.lock.json
+artifacts/
+
+# Rider / JetBrains
+.idea/
+*.sln.iml
+
+# ---------- GENERAL ----------
+# OS or editor files
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+*.tmp
+*.swp
+*.bak
+*.old
+*.orig
+
+# Logs
+*.log
+logs/
+log.txt
+
+# Temporary files
+temp/
+tmp/
+
+# ---------- END OF FILE ----------
